@@ -116,8 +116,8 @@ Lastly we find the GCD between sumA and sumB by calling getGCD().
 
 ![alt text](/images/work3.png)
 
-NOTE: The all actual code may differ slightly from the explaination on how it works. These differences are
-simply made to print out into the command line certain information.
+NOTE: All actual code from the entire program may differ slightly from the explaination on how it works. 
+These differences are simply made to print out into the command line certain information.
 
 # Usage
 
