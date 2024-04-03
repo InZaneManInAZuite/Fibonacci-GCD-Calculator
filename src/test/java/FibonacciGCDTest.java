@@ -180,7 +180,7 @@ public class FibonacciGCDTest {
         }
 
         @Test
-        public void test_A_is_more_than_48() {
+        public void test_A_is_more_than_47() {
             // Arrange
             int a = 49;
             int b = 3;

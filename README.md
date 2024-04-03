@@ -149,11 +149,17 @@ calculate the GCD of the sum of the first A and B Fibonacci numbers.
 If the input is invalid, such as if the input is not a number, or is not greater than zero,
 the program will ask the user repeatedly until a valid input A is given.
 
+NOTE: The max input possible is 47. Inputting 48 or above will make the program ask the user
+for valid input once again as input 48 and above causes an integer overflow.
+
 ![alt text](/images/image3.png)
 
 When two valid inputs A and B have been given by the user, the first A fibonacci numbers and 
 the first B fibonacci numbers are shown along with the sum of those collection of numbers.
 Then, the program then showns what the GCD (Greatest Common Divisor) of these two sums are.
+
+NOTE: Once the input values exceeds 11, the text display for the fibonacci is shortend to have
+a ... and only shows the last number on the sequence afterwards.
 
 ![alt text](/images/image4.png)
 
