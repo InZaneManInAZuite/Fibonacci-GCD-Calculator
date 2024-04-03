@@ -2,25 +2,25 @@
 
 Fibonacci GCD Calculator
 
-## Description
+# Description
 
 With two positive integers A and B given by the user, this program calculates the greatest 
 common divisor (GCD) of the sum of the first A Fibonacci numbers and the sum of the first B 
 Fibonacci numbers. 
 
-## Table of Contents
+# Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 
-## Installation
+# Installation
 
 [Provide instructions on how to install and set up your project]
 
-## Usage
+# Usage
 
-# Opening the Program
+## Opening the Program
 
 Open the command line and set the current directory to the location of the FibonacciGCD.jar
 file. Then use the "java -jar FibonacciGCD.jar" in the command line to open the file.
@@ -28,7 +28,7 @@ file. Then use the "java -jar FibonacciGCD.jar" in the command line to open the 
 In cases where the user is unable to use a .jar file, use instead from the same directory: 
 "java src/main/java/Main.java"
 
-When the program starts running, a menu screen can be see such as this:
+When the program starts running, a menu screen similar to one below can be seen:
 
 ![alt text](/images/image1.png)
 
@@ -36,7 +36,7 @@ At the end of this screen we see arrows ">>" where the user can input "CALCULATE
 NOTE: These commands ignore cases, thus the user can simply write commands in lower case.
 NOTE: Please mind the spelling of the commands.
 
-# Calculate Command
+## Calculate Command
 
 If the CALCULATE command is selected, the program asks for an input for A and B. This is to
 calculate the GCD of the sum of the first A and B Fibonacci numbers.
@@ -52,83 +52,33 @@ When two valid inputs A and B have been given by the user, the first A fibonacci
 the first B fibonacci numbers are shown along with the sum of those collection of numbers.
 Then, the program then showns what the GCD (Greatest Common Divisor) of these two sums are.
 
-|--------------------------------------------------------------------------------------------|
-|Insert A: 6                                                                                 |
-|Insert B: 9                                                                                 |
-|                                                                                            |
-|The first 6 fibonacci numbers are: 0 1 1 2 3 5                                              |
-|Sum of first 6 fibonacci numbers: 12                                                        |
-|The first 9 fibonacci numbers are: 0 1 1 2 3 5 8 13 21                                      |
-|Sum of first 9 fibonacci numbers: 54                                                        |
-|                                                                                            |
-|GCD of sum of first 6 and 9 fibonacci numbers: 6                                            |
-|                                                                                            |
-|Press Enter to continue...                                                                  |
-|--------------------------------------------------------------------------------------------|
+![alt text](/images/image4.png)
 
 NOTE: If A and B inputted are equal to each other, the sequence of numbers and the sum will
 only appear once.
 
-|--------------------------------------------------------------------------------------------|
-|Insert A: 6                                                                                 |
-|Insert B: 9                                                                                 |
-|                                                                                            |
-|The first 6 fibonacci numbers are: 0 1 1 2 3 5                                              |
-|Sum of first 6 fibonacci numbers: 12                                                        |
-|                                                                                            |
-|GCD of sum of first 6 and 6 fibonacci numbers: 12                                           |
-|                                                                                            |
-|Press Enter to continue...                                                                  |
-|--------------------------------------------------------------------------------------------|
+![alt text](/images/image5.png)
 
 The program then asks the user to press enter to continue using the program. Pressing enter
 will bring back the commands menu. From here, the user can use the program once again to
 calculate the GCD of the sum of the first A and B Fibonacci numbers or exit the program.
 
-|--------------------------------------------------------------------------------------------|
-|--------------------------------------------------------------------------------------------|
-|Please select your next command:                                                            |
-|                                                                                            |
-|CALCULATE - Calculate the GCD of the sum of the first A and B Fibonacci numbers             |
-|EXIT      - Exit the program                                                                |
-|                                                                                            |
-|>>                                                                                          |
-|--------------------------------------------------------------------------------------------|
+![alt text](/images/image6.png)
 
-# Exit Command
+## Exit Command
 
 If the user chose the EXIT command, the program displays some texts and the program ends.
 
-|--------------------------------------------------------------------------------------------|
-|>> EXIT                                                                                     |
-|                                                                                            |
-|--------------------------------------------------------------------------------------------|
-|            Thank you for using the Fibonacci GCD Calculator! Have a great day!             |
-|                                                                                            |
-|                        Author: Toshiro Mendoza        ID: 834872958                        |
-|                                 SOFTENG 282 - Assignment 2                                 |
-|                                                                                            |
-|--------------------------------------------------------------------------------------------|
+![alt text](/images/image7.png)
 
-# Invalid Command
+## Invalid Command
 
 If the user inputs an invalid command, it repeats the command menu and asks the user for a
 command until a valid command is given.
 
-|--------------------------------------------------------------------------------------------|
-|>> INVALID                                                                                  |
-|                                                                                            |
-|Invalid command. Please try again.                                                          |
-|                                                                                            |
-|Please select your next command:                                                            |
-|                                                                                            |
-|CALCULATE - Calculate the GCD of the sum of the first A and B Fibonacci numbers             |
-|EXIT      - Exit the program                                                                |
-|                                                                                            |
-|>>                                                                                          |
-|--------------------------------------------------------------------------------------------|
+![alt text](/images/image8.png)
 
 
-## Contributing
+# Contributing
 
 This is made by Toshiro Mendoza for Assignment 2 in SOFTENG 282.
