@@ -1,6 +1,7 @@
 # Project Name
 
 SOFTENG 282 - Assignment 2
+
 The Fibonacci GCD Calculator
 
 # Description
@@ -33,7 +34,7 @@ which is a documentation of the classes made for the program, including the test
 
 The solution to the task:
 
-The back end processes are mediated by the FibonacciGCD class in code made. To simplify the
+The back end processes are mediated by the FibonacciGCD class in the code. To simplify the
 coding process, the method that actually looks for the GCD (Greatest Common Divisor) of the 
 sum of the first A and first B Fibonacci numbers called computeGCD() calls on two different 
 methods. This essentially splits the task into two parts. A method which looks for the sum
@@ -59,12 +60,14 @@ Then a temporary variable temp is set to equal to a.
 Then a is changed to be b;
 
 Then b is changed to be the sum of the new a and temp. This essentially changes a and b to be
-the next pair of numbers in the Fibonacci sequence. And thus when the for loop has looped n times
-the first N fibonacci numbers have been added to sum.
+the next consecutive pair of numbers in the Fibonacci sequence. And thus when the for loop has 
+looped n times the first N fibonacci numbers have been added to sum.
 
-NOTE: If the input is non-positive, the resulting sum will be 0. This will be representative of
-summing no Fibonacci number as there is no "0th" or below Fibonacci number. Thus the program will
-reject user inputs that are non-positive.
+NOTE: On its own, if the input is non-positive, the resulting sum will be 0. This will be 
+representative of summing no Fibonacci number as there is no "0th" or below Fibonacci number.
+
+NOTE: The entire program will reject user inputs that are non-positive and will ask the user to
+input a new input.
 
 Lastly return the sum variable.
 
@@ -76,14 +79,19 @@ The method that looks for the GCD of two numbers is the getGCD(). This method ta
 input a and b, and outputs an integer. This directly follows the Euclidean Algorithm as a recurssive
 method.
 
-Euclidean Algorithm works out the GCD by repeatedly expressing the two input numbers A and B where A 
-is larger as A = Bn + C for some integer n, with C being a remainder. Then repeating this for B and C. 
-Once C becomes equal to 0, B is shown to be the GCD of A and B. This repetitiveness can be turned 
-into a recursive method.
+Euclidean Algorithm works out the GCD by expressing the two numbers A and B, where A is larger, as 
+A = Bn + C for some integer n, with C being a remainder. Then repeating this for B and C until 
+eventually the remainder becomes equal to 0. In such case, the "B" when the remainder is 0 is shown 
+to be the GCD of the initial input A and B. This repetitiveness can be turned into a recursive method.
 
-First to make it similar to how Euclidean Algorithm is done by hand, we set that a is greater
-than b. To do so if a is less than b, we set a temporary variable temp equal to a. Then set a equal 
-to b. And finally, set b equal to temp. Remember all numbers in the Fibonacci Sequence are non-negative.
+First to make it similar to how Euclidean Algorithm is done by hand, we set a to be greater than b. 
+
+To do so if a is less than b, we set a temporary variable temp equal to a. 
+
+Then set a equal to b. 
+
+And finally, set b equal to temp. Switching the values of input a and b. Remember all numbers in the 
+Fibonacci Sequence are non-negative, so let's not expect any negative inputs.
 
 Then as a base case, if b is equal to 0, we return a.
 
@@ -108,7 +116,7 @@ Lastly we find the GCD between sumA and sumB by calling getGCD().
 
 ![alt text](/images/work3.png)
 
-NOTE: The actual code may differ slightly from the explaination on how it works. These differences are
+NOTE: The all actual code may differ slightly from the explaination on how it works. These differences are
 simply made to print out into the command line certain information.
 
 # Usage
