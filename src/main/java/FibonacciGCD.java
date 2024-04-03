@@ -15,7 +15,11 @@ public class FibonacciGCD {
 
         // Loop to find first n Fibonacci numbers and add them to sum
         for (int i = 0; i < n; i++) {
-            System.out.print(a + " ");
+            if (i < 10 || i == n - 1) {
+                System.out.print(a + " ");
+            } else if (i == 10) {
+                System.out.print("... ");
+            }
             sum += a;
             int temp = a;
             a = b;
@@ -54,6 +58,12 @@ public class FibonacciGCD {
         // If a or b is 0, return 0
         if (firstFibonacciSeries <= 0 || secondFibonacciSeries <= 0) {
             System.out.println("Invalid input. Cardinality must be greater than 0.\n");
+            return 0;
+        }
+
+        // If a or b is greater than 47, return 0
+        if (firstFibonacciSeries >= 48 || secondFibonacciSeries >= 48) {
+            System.out.println("Unable to compute. Please enter a number less than 48.\n");
             return 0;
         }
 

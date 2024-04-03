@@ -100,6 +100,11 @@ public class DisplayFibonacci {
                 System.out.println("Invalid input. Cardinality "+ nth +" must be greater than 0.");
                 continue;
             }
+
+            if (n >= 48) {
+                System.out.println("Unable to compute. Please enter a number less than 48.");
+                continue;
+            }
             haveN = true;
         }
 

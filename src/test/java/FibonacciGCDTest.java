@@ -179,6 +179,22 @@ public class FibonacciGCDTest {
             Assert.assertEquals(1, result);
         }
 
+        @Test
+        public void test_A_is_more_than_48() {
+            // Arrange
+            int a = 49;
+            int b = 3;
+            FibonacciGCD fib = new FibonacciGCD();
+            OutputStream outputStream = new ByteArrayOutputStream();
+            System.setOut(new PrintStream(outputStream));
+
+            // Act
+            fib.computeGCD(a, b);
+
+            // Assert
+            Assert.assertEquals("Unable to compute. Please enter a number less than 48.".trim(), outputStream.toString().trim());
+            System.setOut(System.out);
+        }
 
     }
 
