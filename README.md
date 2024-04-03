@@ -28,26 +28,25 @@ file. Then use the "java -jar FibonacciGCD.jar" in the command line to open the 
 In cases where the user is unable to use a .jar file, use instead from the same directory: 
 "java src/main/java/Main.java"
 
-When the program starts running, a menu screen can be see such as this:
-|--------------------------------------------------------------------------------------------|
-|                                                                                            |
-|                                                                                            |
-|  .oooooooo.   .oooooooo.  oooooooooooo oooooooooooo oooooooooooo ooooo  ooooo  .oooooooo.  |
-|  888'  \`888' .888'  \`888. \`888'     \`8 8' \`8888' \`8 \`888'     \`8 \`8888. \`888' .888'  `888' |
-|  \`888.  \`''  888'    \`888  888    .        8888      888.   .     88888. 888  888'  . `''  |
-|   `888888.   888      888  888oooo8        8888      888oooo8     888 88 888  888   oooo.  |
-|  ...  \`888.  888.    .888  888    '        8888      888'   '     888 `88888  888.  ' 888' |
-| '888.  .888  \`888.  .888'  888            .8888.    .888.     .8  888  \`8888  `888.  .888' |
-|  \`99999999'   \`99999999'   888           .o8888o.   o888oooooooo .999.  .999.  `99999999'  |
-|                                                                                            |
-|                           .ooooooooo.   .oooooooo.  .ooooooooo.                            |
-|                           888'   \`888' '888'  \`888' 888'   `888'                           |
-|                           \`''   .888'  \`888.  .888' `''   .888'                            |
-|                               .888'      `888888.       .888'                              |
-|                             .888'   .  .888'  `888.   .888'   .                            |
-|                           .888'    .8' '888.  .888' .888'    .8'                           |
-|                           oooooooooo9'  `99999999'  oooooooooo9'                           |
-|--------------------------------------------------------------------------------------------|
+When the program starts running, a menu screen can be seen such as this:
+                                                                                            
+                                                                                            
+  .oooooooo.   .oooooooo.  oooooooooooo oooooooooooo oooooooooooo ooooo  ooooo  .oooooooo.  
+  888'  \`888' .888'  \`888. \`888'     \`8 8' \`8888' \`8 \`888'     \`8 \`8888. \`888' .888'  `888' 
+  \`888.  \`''  888'    \`888  888    .        8888      888.   .     88888. 888  888'  . `''  
+   `888888.   888      888  888oooo8        8888      888oooo8     888 88 888  888   oooo.  
+  ...  \`888.  888.    .888  888    '        8888      888'   '     888 `88888  888.  ' 888' 
+ '888.  .888  \`888.  .888'  888            .8888.    .888.     .8  888  \`8888  `888.  .888' 
+  \`99999999'   \`99999999'   888           .o8888o.   o888oooooooo .999.  .999.  `99999999'  
+                                                                                            
+                           .ooooooooo.   .oooooooo.  .ooooooooo.                            
+                           888'   \`888' '888'  \`888' 888'   `888'                           
+                           \`''   .888'  \`888.  .888' `''   .888'                            
+                               .888'      `888888.       .888'                              
+                             .888'   .  .888'  `888.   .888'   .                            
+                           .888'    .8' '888.  .888' .888'    .8'                           
+                           oooooooooo9'  `99999999'  oooooooooo9'                           
+--------------------------------------------------------------------------------------------
 |                                                                                            |
 |                                                                                            |
 |Welcome to the Fibonacci GCD Calculator! Insert below which Ath and Bth Fibonacci number do |
