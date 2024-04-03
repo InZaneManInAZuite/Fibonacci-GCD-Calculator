@@ -28,38 +28,9 @@ file. Then use the "java -jar FibonacciGCD.jar" in the command line to open the 
 In cases where the user is unable to use a .jar file, use instead from the same directory: 
 "java src/main/java/Main.java"
 
-When the program starts running, a menu screen can be seen such as this:
-                                                                                            
-                                                                                            
-  .oooooooo.   .oooooooo.  oooooooooooo oooooooooooo oooooooooooo ooooo  ooooo  .oooooooo.  
-  888'  \`888' .888'  \`888. \`888'     \`8 8' \`8888' \`8 \`888'     \`8 \`8888. \`888' .888'  `888' 
-  \`888.  \`''  888'    \`888  888    .        8888      888.   .     88888. 888  888'  . `''  
-   `888888.   888      888  888oooo8        8888      888oooo8     888 88 888  888   oooo.  
-  ...  \`888.  888.    .888  888    '        8888      888'   '     888 `88888  888.  ' 888' 
- '888.  .888  \`888.  .888'  888            .8888.    .888.     .8  888  \`8888  `888.  .888' 
-  \`99999999'   \`99999999'   888           .o8888o.   o888oooooooo .999.  .999.  `99999999'  
-                                                                                            
-                           .ooooooooo.   .oooooooo.  .ooooooooo.                            
-                           888'   \`888' '888'  \`888' 888'   `888'                           
-                           \`''   .888'  \`888.  .888' `''   .888'                            
-                               .888'      `888888.       .888'                              
-                             .888'   .  .888'  `888.   .888'   .                            
-                           .888'    .8' '888.  .888' .888'    .8'                           
-                           oooooooooo9'  `99999999'  oooooooooo9'                           
---------------------------------------------------------------------------------------------
-|                                                                                            |
-|                                                                                            |
-|Welcome to the Fibonacci GCD Calculator! Insert below which Ath and Bth Fibonacci number do |
-|                             you want to calculate the GCD of.                              |
-|                                                                                            |
-|Please select your next command:                                                            |
-|                                                                                            |
-|CALCULATE - Calculate the GCD of the sum of the first A and B Fibonacci numbers             |
-|EXIT      - Exit the program                                                                |
-|                                                                                            |
-|>>                                                                                          |
-|--------------------------------------------------------------------------------------------|
+When the program starts running, a menu screen can be see such as this:
 
+![alt text](/images/image1.png)
 
 At the end of this screen we see arrows ">>" where the user can input "CALCULATE" or "EXIT". 
 NOTE: These commands ignore cases, thus the user can simply write commands in lower case.
@@ -70,23 +41,12 @@ NOTE: Please mind the spelling of the commands.
 If the CALCULATE command is selected, the program asks for an input for A and B. This is to
 calculate the GCD of the sum of the first A and B Fibonacci numbers.
 
-|--------------------------------------------------------------------------------------------|
-|>> CALCULATE                                                                                |
-|                                                                                            |
-|Insert A:                                                                                   |
-|--------------------------------------------------------------------------------------------|
+![alt text](/images/image2.png)
 
 If the input is invalid, such as if the input is not a number, or is not greater than zero,
 the program will ask the user repeatedly until a valid input A is given.
 
-|--------------------------------------------------------------------------------------------|
-|Insert A: Invalid_Input                                                                     |
-|Invalid input. Please enter a number.                                                       |
-|Insert A: 0                                                                                 |
-|Invalid input. Cardinality A must be greater than 0.                                        |
-|Insert A: 6                                                                                 |
-|Insert B:                                                                                   |
-|--------------------------------------------------------------------------------------------|
+![alt text](/images/image3.png)
 
 When two valid inputs A and B have been given by the user, the first A fibonacci numbers and 
 the first B fibonacci numbers are shown along with the sum of those collection of numbers.
