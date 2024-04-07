@@ -18,8 +18,8 @@ Copies of the images will be on the images directory.
 # Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
 - [Working](#working)
+- [Usage](#usage)
 - [Contributing](#contributing)
 
 # Installation
