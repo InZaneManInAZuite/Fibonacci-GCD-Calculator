@@ -10,6 +10,11 @@ With two positive integers A and B given by the user, this program calculates th
 common divisor (GCD) of the sum of the first A Fibonacci numbers and the sum of the first B 
 Fibonacci numbers. 
 
+It is recommended to view this README.md file in the github repos: 
+https://github.com/InZaneManInAZuite/SOFTENG282Assign2.git
+
+Copies of the images will be on the images directory.
+
 # Table of Contents
 
 - [Installation](#installation)
