@@ -95,7 +95,7 @@ To do so if a is less than b, we set a temporary variable temp equal to a.
 
 Then set a equal to b. 
 
-And finally, set b equal to temp. Switching the values of input a and b. Remember all numbers in the 
+And finally, set b equal to temp. Switching the values of input a and b. Remember all numbers in the
 Fibonacci Sequence are non-negative, so let's not expect any negative inputs.
 
 Then as a base case, if b is equal to 0, we return a.
