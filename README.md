@@ -25,11 +25,14 @@ Copies of the images will be on the images directory.
 # Installation
 
 Clone this repository to your device using git. Select a new folder you want to place the
-repository into to use "git clone". 
+repository into by going into the command line and inputting "cd (new folder directory)" 
+then using "git clone (link to repository)".
 Link to the repository: https://github.com/InZaneManInAZuite/SOFTENG282Assign2.git
 
 or - simply download the FibonacciGCD.jar file into your device. Then follow instructions
-on how to use the program
+on how to use the program. This can be done by opening the link to the repository in your
+browser. Then, selecting the FibonacciGCD.jar file. At the top right of your browser will
+be three dots which if you click would show you the option to download the file. 
 
 # Working
 
@@ -132,7 +135,8 @@ Open the command line and set the current directory to the location of the Fibon
 file. Then use the "java -jar FibonacciGCD.jar" in the command line to open the file.
 
 In cases where the user is unable to use a .jar file, use instead from the same directory: 
-"java src/main/java/Main.java"
+"java src/main/java/Main.java". This method would require that you installed the entire
+repository rather than just the jar file.
 
 When the program starts running, a menu screen similar to one below can be seen:
 
