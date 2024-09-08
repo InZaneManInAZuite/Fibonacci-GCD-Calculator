@@ -11,7 +11,7 @@ common divisor (GCD) of the sum of the first A Fibonacci numbers and the sum of 
 Fibonacci numbers. 
 
 It is recommended to view this README.md file in the github repos: 
-https://github.com/InZaneManInAZuite/SOFTENG282Assign2.git
+https://github.com/InZaneManInAZuite/Fibonacci-GCD-Calculator
 
 Copies of the images will be on the images directory.
 
@@ -27,7 +27,7 @@ Copies of the images will be on the images directory.
 Clone this repository to your device using git. Select a new folder you want to place the
 repository into by going into the command line and inputting "cd (new folder directory)" 
 then using "git clone (link to repository)".
-Link to the repository: https://github.com/InZaneManInAZuite/SOFTENG282Assign2.git
+Link to the repository: https://github.com/InZaneManInAZuite/Fibonacci-GCD-Calculator
 
 or - simply download the FibonacciGCD.jar file into your device. Then follow instructions
 on how to use the program. This can be done by opening the link to the repository in your
